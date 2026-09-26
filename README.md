@@ -5,7 +5,7 @@ Autor: **Marcio Almeida da Silva**, Pós-Graduação em Engenharia de Software,
 PUC-Rio. Persiste dados com SQLAlchemy/MySQL, consulta Nominatim para endereços
 e OSRM para trajetos e matrizes. Cenário 1.1 do enunciado.
 
-![Fluxograma da arquitetura](docs/arquitetura.svg)
+![Fluxograma da arquitetura](.docs/arquitetura.svg)
 
 ## Executar com Docker
 
