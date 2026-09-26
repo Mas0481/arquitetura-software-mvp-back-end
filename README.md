@@ -14,12 +14,13 @@ Clone este repositório como backend, ao lado do repositório da interface:
 
 ```text
 mvp/
-  frontend/compose.yaml
+  compose.yaml
+  frontend/Dockerfile
   backend/Dockerfile
 ```
 
 Na pasta frontend, copie .env.example para .env, defina as senhas e o contato,
-e execute:
+e execute na pasta raiz do projeto:
 
 ```powershell
 docker compose up -d --build --wait
