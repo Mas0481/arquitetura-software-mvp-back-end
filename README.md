@@ -15,11 +15,13 @@ Clone este repositório como backend, ao lado do repositório da interface:
 ```text
 mvp/
   compose.yaml
+  .env.example
+  Readme.md
   frontend/Dockerfile
   backend/Dockerfile
 ```
 
-Na pasta frontend, copie .env.example para .env, defina as senhas e o contato,
+Na pasta raiz, copie .env.example para .env, defina as senhas e o contato,
 e execute na pasta raiz do projeto:
 
 ```powershell
