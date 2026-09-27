@@ -21,14 +21,10 @@ mvp/
   backend/Dockerfile
 ```
 
-Na pasta raiz, copie .env.example para .env, defina as senhas e o contato,
-e execute na pasta raiz do projeto:
-
-```powershell
-docker compose up -d --build --wait
+PARA FINS DE CONFIGURAÇÃO, USE O REAME DO FRONTEND.
 ```
 
-O Compose está na raiz do repositório da interface, conforme o enunciado.
+O Compose está na raiz.
 Ele constrói esta API usando seu Dockerfile próprio, inicia o MySQL e o frontend.
 Não é necessário instalar Python ou MySQL na máquina.
 Swagger: http://localhost:8001/docs. Saúde: http://localhost:8001/api/health.
